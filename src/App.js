@@ -31,19 +31,19 @@ function App() {
           <h1>What our Clients say about us.</h1>
           <Testionials
             message="
-        Supahands was really professional, they delivered quality results within our timelines. We can't thank them enough for connecting with us regularly and updating us with the progress. Very happy to have worked with them! "
+        Blitz AIs really professional, they delivered quality results within our timelines. We can't thank them enough for connecting with us regularly and updating us with the progress. Very happy to have worked with them! "
             name="Aiza Ahmad"
             desig="Director @ Axiata Digital"
           />
           <Testionials
             message="
-        Supahands was really professional, they delivered quality results within our timelines. We can't thank them enough for connecting with us regularly and updating us with the progress. Very happy to have worked with them! "
+        Blitz AIs really professional, they delivered quality results within our timelines. We can't thank them enough for connecting with us regularly and updating us with the progress. Very happy to have worked with them! "
             name="Aiza Ahmad"
             desig="Director @ Axiata Digital"
           />
           <Testionials
             message="
-        Supahands was really professional, they delivered quality results within our timelines. We can't thank them enough for connecting with us regularly and updating us with the progress. Very happy to have worked with them! "
+        Blitz AIs really professional, they delivered quality results within our timelines. We can't thank them enough for connecting with us regularly and updating us with the progress. Very happy to have worked with them! "
             name="Aiza Ahmad"
             desig="Director @ Axiata Digital"
           />
