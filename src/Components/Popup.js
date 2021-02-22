@@ -15,10 +15,6 @@ let cle = () => {
 };
 
 class Servicespop extends React.Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
       <div>

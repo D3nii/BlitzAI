@@ -3,10 +3,6 @@ import React from "react";
 import "../Style/Page1.css";
 
 class Page1 extends React.Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
       <div id="page1">
@@ -19,7 +15,7 @@ class Page1 extends React.Component {
             We provide high quality food for your machine learning models <br />{" "}
             so that they grow healthy and fat.{" "}
           </div>
-        </div>  
+        </div>
       </div>
     );
   }

@@ -7,10 +7,6 @@ import Policy from "./Policy";
 import "../Style/Footer.css";
 
 class Footer extends React.Component {
-  constructor() {
-    super();
-  }
-
   displayPopup() {
     var pop = document.getElementById("popup");
     pop.classList.toggle("active");

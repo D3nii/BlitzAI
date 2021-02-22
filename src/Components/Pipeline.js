@@ -12,8 +12,8 @@ class Pipeline extends React.Component {
   }
 
   componentDidMount() {
-    let idek = setInterval(() => {
-      if (counter == 6) {
+    setInterval(() => {
+      if (counter === 6) {
         counter = 0;
         this.restore();
       }
@@ -26,7 +26,7 @@ class Pipeline extends React.Component {
   changeStyling(temp) {
     for (let i = 0; i < 6; i++) {
       document.getElementById(`PipelineCard${i}`).style.opacity = "0.1";
-      if (i == temp) continue;
+      if (i === temp) continue;
     }
     document.getElementById(`PipelineCard${temp}`).style.opacity = "1";
   }
