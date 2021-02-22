@@ -1,0 +1,26 @@
+@media only screen and (min-width: 1440px) {
+  #page2_1 {
+    top: 180px;
+    position: relative;
+    left: -380px;
+    display: inline-block;
+    margin: 10px 70px;
+    left: 10px;
+    width: 400px;
+
+    border: 3px solid rgb(78, 83, 119);
+    border-radius: 30px;
+    padding: 10px 20px;
+  }
+
+  #main2_1 {
+    font-size: 30px;
+    top: -5px;
+    position: relative;
+  }
+
+  #leftover2_1 {
+    position: relative;
+    margin-top: 10px;
+  }
+}

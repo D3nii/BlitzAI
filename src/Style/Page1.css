@@ -1,0 +1,27 @@
+#main {
+  font-size: 50px;
+  /* position: absolute;
+  left: 150px; */
+}
+
+#page1content {
+  position: relative;
+  padding-top: 17em;
+}
+
+#leftover {
+  margin-top: 1em;
+}
+
+#page1 {
+  color: white;
+  background-image: url(/static/media/try2.b037acc4.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+}
+
+#rightslide {
+  margin-left: 350px;
+  position: relative;
+}

@@ -1,0 +1,50 @@
+#Footer {
+  text-align: center;
+  margin: 0 auto !important;
+}
+
+#col {
+  display: flex;
+  margin: 0 auto !important;
+  width: 95%;
+  padding-bottom: 6em;
+  margin-left: 2em;
+}
+
+#Links {
+  color: black;
+  margin-left: 1em;
+}
+
+#col1 {
+  margin-left: auto;
+  padding: 0em 1em;
+}
+
+#call1:hover {
+  color: rgb(78, 83, 119) !important;
+}
+
+#col1 > h2 {
+  color: rgb(78, 83, 119) !important;
+}
+
+a:hover {
+  color: rgb(78, 83, 119) !important;
+}
+
+#footerMain > h1 {
+  color: rgb(78, 83, 119);
+}
+
+#footerMain > p {
+  width: 20em;
+}
+
+#col1 > a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  margin: 1em 0;
+  cursor: pointer;
+}

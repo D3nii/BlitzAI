@@ -1,0 +1,660 @@
+/* Ipad mini and IPad 9.7*/
+@media only screen and (min-width: 668px) and (max-width: 1024px) {
+  #companyName {
+    margin-right: 12%;
+  }
+
+  .navBar {
+    padding: 0.5vw 1vw;
+  }
+
+  .navButton {
+    border: 2px solid rgb(78, 83, 119);
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 14px;
+    position: absolute;
+  }
+
+  #page2 {
+    margin-top: 25vw;
+  }
+
+  #page1 {
+    margin-top: 14.5%;
+  }
+
+  #main {
+    position: absolute;
+    left: 11vw;
+    font-size: 3.8vw;
+  }
+
+  #leftover {
+    position: relative;
+    left: 7vw;
+    top: 14vw;
+    width: 36vw;
+    font-size: 1.3vw;
+  }
+
+  #main2 {
+    margin-bottom: -10vw;
+  }
+
+  #services div {
+    max-width: 37vw;
+    height: 13vw;
+    left: 61vw;
+  }
+
+  #down_arrow {
+    left: 26vw;
+  }
+
+  .images {
+    width: 450px;
+  }
+
+  .slider {
+    width: 450px;
+  }
+
+  #slider2 {
+    height: 450px;
+  }
+
+  #back1,
+  #back2,
+  #back3,
+  #front1,
+  #fron2,
+  #front3 {
+    background-size: 450px;
+    height: 450px;
+  }
+
+  #scroll {
+    height: 48vw;
+    bottom: 31vw;
+    right: 5vw;
+  }
+
+  .littleBody {
+    width: 30vw;
+    top: 10px;
+  }
+
+  #page3 {
+    background: url(https://supahands.com/wp-content/uploads/2019/10/wave-top2.png)
+        no-repeat 0 0,
+      url(https://supahands.com/wp-content/uploads/2019/10/wave-bottom2.png)
+        no-repeat 0 100.1%,
+      linear-gradient(138deg, rgb(78, 83, 119) 0%, rgb(78, 83, 119) 100%);
+    padding-top: 15vw;
+    background-size: 100% auto;
+    padding-bottom: 15vw;
+  }
+
+  #main3 {
+    color: white;
+    font-size: 30px;
+  }
+
+  #page3_right {
+    display: flex;
+    margin: 10px 100px;
+    margin-left: 505px;
+    border: 3px solid rgb(78, 83, 119);
+    border-radius: 30px;
+    position: relative;
+    width: 465px;
+    height: 264px;
+  }
+
+  #page3_left {
+    display: flex;
+    margin: 10px 0;
+    margin-left: 45px;
+    border: 3px solid rgb(78, 83, 119);
+    border-radius: 30px;
+    position: relative;
+    width: 465px;
+    height: 264px;
+  }
+
+  #slideShowImage {
+    position: relative;
+    left: 165px;
+  }
+
+  img#slideShowImage {
+    width: 700px;
+  }
+
+  #TestimonialWriting {
+    padding: 0 30px;
+    font-style: italic;
+    font-size: 1.5vw;
+    position: relative;
+  }
+
+  #page3_cards {
+    display: flex;
+    margin: 10px 140px;
+    border: 3px solid rgb(78, 83, 119);
+    border-radius: 5px;
+    position: relative;
+    height: 140px;
+  }
+
+  #Testimonial {
+    margin: 8vw 0;
+  }
+
+  #testimonial {
+    padding-top: 10vw;
+  }
+
+  #testimonialName {
+    font-style: italic;
+    color: rgb(78, 83, 119);
+    bottom: 3vw;
+    font-size: 1.75vw;
+    position: relative;
+  }
+
+  #PipelineCard0,
+  #PipelineCard1,
+  #PipelineCard2,
+  #PipelineCard3,
+  #PipelineCard4,
+  #PipelineCard5 {
+    margin: 60px 5px;
+    width: 161px;
+  }
+
+  #PipelineHeading {
+    margin-top: 10%;
+  }
+
+  #col1 {
+    margin-left: 20px;
+  }
+
+  #footerMain > p {
+    width: 320px;
+  }
+
+  .page3_heading {
+    margin: auto 40px;
+    font-size: 2.25vw;
+  }
+
+  #page3_body {
+    position: absolute;
+    margin: auto 0px;
+    width: 45%;
+    left: 34vw;
+  }
+
+  #Pipeline {
+    margin: 0 0;
+  }
+}
+
+/* Ipad Pro 10.5 */
+@media only screen and (min-width: 1025px) and (max-width: 1366px) and (min-height: 800px) {
+  #companyName {
+    margin-right: 12%;
+  }
+
+  .navBar {
+    padding: 0.5vw 1vw;
+  }
+
+  .navButton {
+    border: 2px solid rgb(78, 83, 119);
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 14px;
+    position: absolute;
+  }
+
+  #page2 {
+    margin-top: 25vw;
+  }
+
+  #page1 {
+    margin-top: 14.5%;
+  }
+
+  #main {
+    position: absolute;
+    left: 11vw;
+    font-size: 3.8vw;
+  }
+
+  #PipelineCard0,
+  #PipelineCard1,
+  #PipelineCard2,
+  #PipelineCard3,
+  #PipelineCard4,
+  #PipelineCard5 {
+    display: inline-block;
+    margin: 0px 10px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 10px 10px;
+    transition: 1.5s;
+    width: 145px;
+    background-color: white;
+    opacity: 0.1;
+  }
+
+  #leftover {
+    position: relative;
+    left: 7vw;
+    top: 14vw;
+    width: 36vw;
+    font-size: 1.3vw;
+  }
+
+  #main2 {
+    margin-bottom: -10vw;
+  }
+
+  #services div {
+    max-width: 37vw;
+    height: 13vw;
+    left: 61vw;
+  }
+
+  #down_arrow {
+    left: 26vw;
+  }
+
+  .images {
+    width: 450px;
+  }
+
+  .slider {
+    width: 450px;
+  }
+
+  #slider2 {
+    height: 450px;
+  }
+
+  #back1,
+  #back2,
+  #back3,
+  #front1,
+  #fron2,
+  #front3 {
+    background-size: 450px;
+    height: 450px;
+  }
+
+  #scroll {
+    height: 48vw;
+    bottom: 31vw;
+    right: 5vw;
+  }
+
+  .littleBody {
+    width: 30vw;
+    top: 10px;
+  }
+
+  #page3 {
+    background: url(https://supahands.com/wp-content/uploads/2019/10/wave-top2.png)
+        no-repeat 0 0,
+      url(https://supahands.com/wp-content/uploads/2019/10/wave-bottom2.png)
+        no-repeat 0 100.1%,
+      linear-gradient(138deg, rgb(78, 83, 119) 0%, rgb(78, 83, 119) 100%);
+    padding-top: 15vw;
+    background-size: 100% auto;
+    padding-bottom: 15vw;
+  }
+
+  #main3 {
+    color: white;
+    font-size: 30px;
+  }
+
+  #page3_right {
+    display: flex;
+    margin: 10px 100px;
+    margin-left: 505px;
+    border: 3px solid rgb(78, 83, 119);
+    border-radius: 30px;
+    position: relative;
+    width: 465px;
+    height: 264px;
+  }
+
+  #page3_left {
+    display: flex;
+    margin: 10px 0;
+    margin-left: 45px;
+    border: 3px solid rgb(78, 83, 119);
+    border-radius: 30px;
+    position: relative;
+    width: 465px;
+    height: 264px;
+  }
+
+  #slideShowImage {
+    position: relative;
+    left: 165px;
+  }
+
+  img#slideShowImage {
+    width: 700px;
+  }
+
+  #TestimonialWriting {
+    padding: 0 30px;
+    font-style: italic;
+    font-size: 1.5vw;
+    position: relative;
+  }
+
+  #page3_cards {
+    display: flex;
+    margin: 10px 140px;
+    border: 3px solid rgb(78, 83, 119);
+    border-radius: 5px;
+    position: relative;
+    height: 140px;
+  }
+
+  #Testimonial {
+    margin: 8vw 0;
+  }
+
+  #testimonial {
+    padding-top: 10vw;
+  }
+
+  #testimonialName {
+    font-style: italic;
+    color: rgb(78, 83, 119);
+    bottom: 3vw;
+    font-size: 1.75vw;
+    position: relative;
+  }
+
+  #col1 {
+    margin-left: 20px;
+  }
+
+  #footerMain > p {
+    width: 320px;
+  }
+
+  .page3_heading {
+    margin: auto 40px;
+    font-size: 2.25vw;
+  }
+
+  #page3_body {
+    width: 45%;
+    left: 34vw;
+    top: 3vw;
+    position: absolute;
+    font-size: 14px;
+  }
+
+  #Pipeline {
+    margin: 0 0;
+  }
+
+  #PipelineBody {
+    width: 13vw;
+    margin-top: 2vw;
+  }
+}
+
+/* Ipad Pro 12.5 */
+@media only screen and (min-width: 1365px) and (max-width: 1400px) and (min-height: 800px) {
+  #companyName {
+    margin-right: 12%;
+  }
+
+  .navBar {
+    padding: 0.5vw 1vw;
+  }
+
+  .navButton {
+    border: 2px solid rgb(78, 83, 119);
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 14px;
+    position: absolute;
+  }
+
+  #page2 {
+    margin-top: 30vw;
+    margin-bottom: 10vh;
+  }
+
+  #page1 {
+    margin-top: 14.5%;
+  }
+
+  #main {
+    position: absolute;
+    left: 10vw;
+    font-size: 3.8vw;
+  }
+
+  #PipelineCard0,
+  #PipelineCard1,
+  #PipelineCard2,
+  #PipelineCard3,
+  #PipelineCard4,
+  #PipelineCard5 {
+    display: inline-block;
+    margin: 0px 10px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 10px 10px;
+    transition: 1.5s;
+    width: 145px;
+    background-color: white;
+    opacity: 0.1;
+  }
+
+  #leftover {
+    position: relative;
+    left: 6vw;
+    top: 15vw;
+    width: 37vw;
+    font-size: 1.3vw;
+  }
+
+  #main2 {
+    margin-bottom: -10vw;
+  }
+
+  #services div {
+    max-width: 37vw;
+    height: 13vw;
+    left: 61vw;
+  }
+
+  #down_arrow {
+    left: 26vw;
+    top: -50vh;
+    z-index: -1;
+  }
+
+  .images {
+    width: 500px;
+    padding-top: 12vh;
+    margin-left: 10vh;
+  }
+
+  .slider,
+  #slider2 {
+    height: 500px;
+  }
+
+  .slidecontainer {
+    padding-top: 14vh;
+  }
+
+  #back1,
+  #back2,
+  #back3,
+  #front1,
+  #fron2,
+  #front3 {
+    background-size: 500px;
+  }
+
+  #scroll {
+    height: 48vw;
+    bottom: 31vw;
+    right: 5vw;
+  }
+
+  .littleBody {
+    width: 30vw;
+    top: 10px;
+  }
+
+  #page3 {
+    background: url(https://supahands.com/wp-content/uploads/2019/10/wave-top2.png)
+        no-repeat 0 0,
+      url(https://supahands.com/wp-content/uploads/2019/10/wave-bottom2.png)
+        no-repeat 0 100.1%,
+      linear-gradient(138deg, rgb(78, 83, 119) 0%, rgb(78, 83, 119) 100%);
+    padding-top: 10vw;
+    background-size: 100% auto;
+    padding-bottom: 10vw;
+  }
+
+  #main3 {
+    color: white;
+    font-size: 30px;
+  }
+
+  #page3_right {
+    display: flex;
+    margin: 10px 100px;
+    margin-left: 505px;
+    border: 3px solid rgb(78, 83, 119);
+    border-radius: 30px;
+    position: relative;
+    width: 465px;
+    height: 264px;
+  }
+
+  #page3_left {
+    display: flex;
+    margin: 10px 0;
+    margin-left: 45px;
+    border: 3px solid rgb(78, 83, 119);
+    border-radius: 30px;
+    position: relative;
+    width: 465px;
+    height: 264px;
+  }
+
+  #slideShowImage {
+    position: relative;
+    left: 165px;
+  }
+
+  img#slideShowImage {
+    width: 700px;
+  }
+
+  #TestimonialWriting {
+    padding: 0 30px;
+    font-style: italic;
+    font-size: 1.5vw;
+    position: relative;
+  }
+
+  #page3_cards {
+    display: flex;
+    margin: 10px 140px;
+    border: 3px solid rgb(78, 83, 119);
+    border-radius: 5px;
+    position: relative;
+    height: 140px;
+  }
+
+  #Testimonial {
+    margin: 8vw 0;
+  }
+
+  #testimonial {
+    padding-top: 9vw;
+    padding-bottom: 18vh;
+  }
+
+  #testimonialName {
+    font-style: italic;
+    color: rgb(78, 83, 119);
+    bottom: 2vw;
+    font-size: 1.75vw;
+    position: relative;
+  }
+
+  #col1 {
+    margin-left: 20px;
+  }
+
+  #footerMain > p {
+    width: 320px;
+  }
+
+  .page3_heading {
+    margin: auto 40px;
+    font-size: 2.25vw;
+  }
+
+  #page3_body {
+    width: 50%;
+    left: 34vw;
+    top: 3vw;
+    position: absolute;
+    font-size: 14px;
+  }
+
+  #Pipeline {
+    margin: 0 5vh;
+  }
+
+  #PipelineBody {
+    width: 13vw;
+    margin-top: 2vw;
+  }
+
+  #PipelineCard0,
+  #PipelineCard1,
+  #PipelineCard2,
+  #PipelineCard3,
+  #PipelineCard4,
+  #PipelineCard5 {
+    width: 17vh;
+  }
+
+  #PipelineWrapper {
+    padding-top: 6vh;
+    padding-bottom: 0vh;
+  }
+
+  #Footer {
+    margin: 0 10vh;
+  }
+
+  #col1 {
+    margin-left: 4vh;
+  }
+}

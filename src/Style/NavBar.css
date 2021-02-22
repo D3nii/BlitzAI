@@ -1,0 +1,36 @@
+#companyName {
+  margin-right: 25%;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: black;
+  margin-left: 1.5em;
+}
+
+.navBar :hover {
+  color: rgb(78, 83, 119);
+  cursor: pointer;
+}
+
+.navBar {
+  font-size: 17px;
+  margin-right: 0px;
+  padding: 0 1.5em;
+  padding-top: 1em;
+  background-color: #ececec;
+  height: 0px;
+}
+
+.navButton {
+  border: 2px solid rgb(78, 83, 119);
+  color: rgb(78, 83, 119);
+  background-color: white;
+  border-radius: 15px;
+  margin-bottom: 1em;
+}
+
+#companyName {
+  font-family: "Righteous", cursive;
+  font-size: 20px;
+}

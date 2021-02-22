@@ -1,0 +1,22 @@
+#page3_cards {
+  display: flex;
+  margin: 1.5em 15em;
+  border-radius: 5px;
+  position: relative;
+  height: 9em;
+  background-color: white;
+  color: rgb(78, 83, 119);
+}
+
+#page3_body {
+  width: 55%;
+  left: 38%;
+  top: 40px;
+  position: absolute;
+  font-size: 14px;
+  font-size: 13px;
+}
+
+.page3_heading {
+  margin: auto 80px;
+}

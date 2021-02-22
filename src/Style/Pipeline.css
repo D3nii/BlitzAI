@@ -1,0 +1,55 @@
+#Pipeline {
+  display: flex;
+  margin: 0 50px;
+}
+
+#PipelineCard0,
+#PipelineCard1,
+#PipelineCard2,
+#PipelineCard3,
+#PipelineCard4,
+#PipelineCard5 {
+  display: inline-block;
+  margin: 0.5em 0.5em;
+  height: 15em;
+  border-radius: 20px;
+  padding: 0.5em;
+  transition: 1.5s;
+  width: 12em;
+  background-color: white;
+  opacity: 0.1;
+}
+
+#PipelineHeading {
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(78, 83, 119);
+  margin-top: 20%;
+}
+
+#PipelineBody {
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+  color: rgb(78, 83, 119);
+  margin-top: 7px;
+  font-size: 15px;
+}
+
+#PipelineWrapper {
+  height: 80vh;
+  background: url(https://supahands.com/wp-content/uploads/2019/10/wave-top2.png)
+      no-repeat 0 0,
+    url(https://supahands.com/wp-content/uploads/2019/10/wave-bottom2.png)
+      no-repeat 0 100.1%,
+    linear-gradient(138deg, rgb(78, 83, 119) 0%, rgb(78, 83, 119) 100%);
+  padding-top: 4em;
+  background-size: 100% auto;
+  padding-bottom: 4em;
+}
+
+#PipelineMain {
+  font-size: 40px;
+  color: white;
+  padding-top: 0.5em;
+}
