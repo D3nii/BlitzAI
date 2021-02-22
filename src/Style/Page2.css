@@ -1,7 +1,7 @@
 #main2 {
   color: rgb(78, 83, 119);
   font-size: 3.1em;
-  margin-bottom: -1em;
+  margin-bottom: 2em;
 }
 
 #page2 {
@@ -11,17 +11,20 @@
 }
 
 #scroll {
-  width: 80em;
+  display: inline-block;
+  width: 40%;
   height: 30em;
   overflow: auto;
-  position: relative;
-  bottom: 30.5em;
-  right: 5em;
   overflow-x: hidden;
   -ms-overflow-style: none;
   /* IE and Edge */
   scrollbar-width: none;
   /* Firefox */
+}
+
+#slider {
+  display: inline-block;
+  width: 40%;
 }
 
 #scroll::-webkit-scrollbar {
@@ -31,8 +34,6 @@
 #services div {
   height: 9em;
   max-width: 40em;
-  left: 45em;
-  position: relative;
 }
 
 #icons {
@@ -62,9 +63,7 @@ div .sliderOption {
 }
 
 /* */
-.images {
-  margin-left: 6em;
-}
+
 #back1 {
   z-index: 1;
   background-repeat: no-repeat;
@@ -73,6 +72,7 @@ div .sliderOption {
   background-image: url("../Images/up1.jpeg");
   height: 31.3em;
 }
+
 #front1 {
   position: relative;
   z-index: -1;
@@ -81,6 +81,7 @@ div .sliderOption {
   background-repeat: no-repeat;
   height: 31.3em;
 }
+
 #back2 {
   z-index: 1;
   background-repeat: no-repeat;
@@ -89,6 +90,7 @@ div .sliderOption {
   background-image: url("../Images/up2.jpg");
   height: 31.3em;
 }
+
 #front2 {
   position: relative;
   z-index: -1;
@@ -97,6 +99,7 @@ div .sliderOption {
   background-repeat: no-repeat;
   height: 31.3em;
 }
+
 #back3 {
   z-index: 1;
   background-repeat: no-repeat;
@@ -105,6 +108,7 @@ div .sliderOption {
   position: absolute;
   background-image: url("../Images/up3.jpg");
 }
+
 #front3 {
   z-index: 0;
   background-size: 31.3em;
@@ -113,28 +117,41 @@ div .sliderOption {
   height: 31.3em;
   position: relative;
 }
+
 .slidecontainer {
   position: relative;
-  padding-top: 9em;
 }
+
 .slider {
   position: absolute;
   text-align: left;
   width: 31.3em;
   z-index: 1;
   bottom: 0em;
+  height: 100%;
 }
+
+.slider {
+  cursor: none;
+}
+
+#moveOnHover {
+  position: relative;
+}
+
 #slider2 {
-  height: 15.3em;
+  height: 100%;
 }
 
 #img1 {
   display: block;
 }
+
 #img2,
 #img3 {
   display: none;
 }
+
 #down_arrow {
   width: 25em;
   position: relative;

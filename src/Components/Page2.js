@@ -18,24 +18,22 @@ const moveSliderPointerH = (hor) => {
 
   x.style.width = hor + "px";
 
-  x = document.getElementById("slider2");
+  x = document.getElementById("moveOnHover");
 
-  if (hor >= 0 && hor < 500) x.style.marginLeft = hor + "px";
+  // if (hor >= 0 && hor <= 500)
+
+  x.style.left = hor + "px";
 }; //Controlling the horizontal movement
 
 const moveSliderPointerV = (vert) => {
-  x = document.getElementById("slider2");
+  x = document.getElementById("moveOnHover");
 
-  //x.style.position = "absolute";
-  // if (vert < 500) {
-  //   x.style.marginTop = vert + "px";
-  //x.style.marginBottom = (500 - vert) + "px";
-  //}
+  x.style.top = vert + "px";
 }; //Controlling the vertical movement
 
 const moveSliderPointerHelper = (e) => {
-  moveSliderPointerH(e.clientX - 79);
-  moveSliderPointerV(e.clientY - 150);
+  moveSliderPointerH(e.screenX - 210);
+  moveSliderPointerV(e.screenY - 195);
 };
 
 const first = () => {
@@ -141,7 +139,7 @@ class Page2 extends React.Component {
 
               <div className="slider" onMouseMove={moveSliderPointerHelper}>
                 <div id="slider2">
-                  <BsLifePreserver />
+                  <BsLifePreserver id="moveOnHover" />
                 </div>
               </div>
             </div>
