@@ -3,6 +3,10 @@ import React from "react";
 import "../Style/Testimonials.css";
 
 class Testimonial extends React.Component {
+  constructor() {
+    super();
+  }
+
   render() {
     return (
       <div id="testimonial">

@@ -10,9 +10,10 @@ import { BsLifePreserver } from "react-icons/bs";
 import { GiThreePointedShuriken } from "react-icons/gi";
 import { BiShapePolygon } from "react-icons/bi";
 
+let x = 0;
 var l = "back1";
 
-let moveSliderPointerH = (hor) => {
+const moveSliderPointerH = (hor) => {
   let x = document.getElementById(l);
 
   x.style.width = hor + "px";
@@ -22,8 +23,9 @@ let moveSliderPointerH = (hor) => {
   if (hor >= 0 && hor < 500) x.style.marginLeft = hor + "px";
 }; //Controlling the horizontal movement
 
-let moveSliderPointerV = (vert) => {
-  // let x = document.getElementById("slider2");
+const moveSliderPointerV = (vert) => {
+  x = document.getElementById("slider2");
+
   //x.style.position = "absolute";
   // if (vert < 500) {
   //   x.style.marginTop = vert + "px";
@@ -31,12 +33,12 @@ let moveSliderPointerV = (vert) => {
   //}
 }; //Controlling the vertical movement
 
-let moveSliderPointerHelper = (e) => {
+const moveSliderPointerHelper = (e) => {
   moveSliderPointerH(e.clientX - 79);
   moveSliderPointerV(e.clientY - 150);
 };
 
-let first = () => {
+const first = () => {
   l = "back1";
   document.getElementById("img1").style.display = "block";
   document.getElementById("img2").style.display = "none";
@@ -46,7 +48,7 @@ let first = () => {
   document.getElementById("img6").style.display = "none";
 };
 
-let second = () => {
+const second = () => {
   l = "back2";
   document.getElementById("img1").style.display = "none";
   document.getElementById("img2").style.display = "block";
@@ -56,7 +58,7 @@ let second = () => {
   document.getElementById("img6").style.display = "none";
 };
 
-let third = () => {
+const third = () => {
   l = "back3";
   document.getElementById("img1").style.display = "none";
   document.getElementById("img2").style.display = "none";
@@ -66,7 +68,7 @@ let third = () => {
   document.getElementById("img6").style.display = "none";
 };
 
-let fourth = () => {
+const fourth = () => {
   l = "back4";
   document.getElementById("img1").style.display = "none";
   document.getElementById("img2").style.display = "none";
@@ -75,7 +77,7 @@ let fourth = () => {
   document.getElementById("img5").style.display = "none";
   document.getElementById("img6").style.display = "none";
 };
-let fifth = () => {
+const fifth = () => {
   l = "back5";
   document.getElementById("img1").style.display = "none";
   document.getElementById("img2").style.display = "none";
@@ -85,7 +87,7 @@ let fifth = () => {
   document.getElementById("img6").style.display = "none";
 };
 
-let sixth = () => {
+const sixth = () => {
   l = "back6";
   document.getElementById("img1").style.display = "none";
   document.getElementById("img2").style.display = "none";
@@ -96,11 +98,15 @@ let sixth = () => {
 };
 
 class Page2 extends React.Component {
+  constructor() {
+    super();
+  }
+
   render() {
     return (
       <section id="page2">
         <h1 id="main2">Services We Provide</h1>
-        <span id="slider">
+        <div id="slider">
           <div className="images">
             <div className="slidecontainer">
               <div id="img1">
@@ -140,7 +146,7 @@ class Page2 extends React.Component {
               </div>
             </div>
           </div>
-        </span>
+        </div>
 
         <div id="scroll">
           <span id="services">
@@ -167,7 +173,7 @@ class Page2 extends React.Component {
             </div>
 
             <div className="sliderOption" onClick={third}>
-              <a className="spe" href="#">
+              <a className="spe">
                 <span className="littleHeading">
                   <BsBoundingBox id="icons" />
                   Bounding Boxes

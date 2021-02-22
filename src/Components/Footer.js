@@ -7,6 +7,10 @@ import Policy from "./Policy";
 import "../Style/Footer.css";
 
 class Footer extends React.Component {
+  constructor() {
+    super();
+  }
+
   displayPopup() {
     var pop = document.getElementById("popup");
     pop.classList.toggle("active");
@@ -19,9 +23,9 @@ class Footer extends React.Component {
         <br />
         <div id="col">
           <div id="footerMain">
-            <h1>Masti keriyan?</h1>
+            <h1>Blitz AI</h1>
             <p>
-              Masti keriyan is an image annotation company forn computer vision
+              Blitz AI is an image annotation company forn computer vision
               projects.{" "}
             </p>
             <p>+92 300 6405343</p>

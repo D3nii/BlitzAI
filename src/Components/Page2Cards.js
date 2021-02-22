@@ -3,6 +3,10 @@ import React from "react";
 import "../Style/Page2Cards.css";
 
 class Page2Cards extends React.Component {
+  constructor() {
+    super();
+  }
+
   render() {
     return (
       <div id="page2_1">

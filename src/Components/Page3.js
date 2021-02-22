@@ -5,6 +5,10 @@ import "../Style/Page3.css";
 import Page3Cards from "./Page3Cards";
 
 class Page3 extends React.Component {
+  constructor() {
+    super();
+  }
+
   render() {
     return (
       <div id="page3">
