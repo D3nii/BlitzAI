@@ -10,9 +10,6 @@
   height: 14vh;
   margin: 3em 2em;
   display: inline-block;
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   -webkit-box-sizing: border-box;
   box-sizing: inherit;

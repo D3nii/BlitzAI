@@ -1,81 +1,50 @@
 #main2 {
   color: rgb(78, 83, 119);
-  font-size: 50px;
-  margin-bottom: -125px;
-}
-/* The typing effect */
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: orange;
-  }
+  font-size: 3.1em;
+  margin-bottom: -1em;
 }
 
 #page2 {
-  padding-top: 100px;
+  margin-top: 30em;
   position: relative;
-  height: 55rem;
-}
-
-#services {
-  bottom: 360px;
-  position: relative;
+  height: 55em;
 }
 
 #scroll {
-  width: 1380px;
-  height: 480px;
+  width: 80em;
+  height: 30em;
   overflow: auto;
   position: relative;
-  bottom: 300px;
-  right: 50px;
-  max-width: 100%;
+  bottom: 30.5em;
+  right: 5em;
   overflow-x: hidden;
-}
-
-#scroll::-webkit-scrollbar {
-  display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-#scroll {
   -ms-overflow-style: none;
   /* IE and Edge */
   scrollbar-width: none;
   /* Firefox */
 }
 
+#scroll::-webkit-scrollbar {
+  display: none;
+}
+
 #services div {
-  height: 140px;
-  max-width: 600px;
-  left: 750px;
+  height: 9em;
+  max-width: 40em;
+  left: 45em;
   position: relative;
-  margin-right: 400px;
 }
 
 #icons {
-  margin-right: 20px;
+  margin-right: 0.5em;
   position: relative;
-  top: 5px;
+  top: 0.1em;
 }
 
 div .sliderOption {
-  margin: 10px 0;
-  padding: 10px;
-  bottom: 495px;
-  top: 350px;
+  margin: 0.5em 0;
+  padding: 1em;
+  top: 0px;
   position: relative;
   background-color: rgb(78, 83, 119);
   text-align: left !important;
@@ -92,182 +61,84 @@ div .sliderOption {
   font-size: 30px;
 }
 
-.littleBody {
-  color: white;
-  top: 20px;
-  position: relative;
-  left: 55px;
-  width: 500px;
-  font-size: 14px;
-  display: table-caption;
-}
-
 /* */
 .images {
-  position: relative;
-  width: 500px;
-  height: 500px;
-  margin-left: 80px;
+  margin-left: 6em;
 }
 #back1 {
   z-index: 1;
   background-repeat: no-repeat;
   position: absolute;
-  background-size: 500px;
+  background-size: 31.3em;
   background-image: url("../Images/up1.jpeg");
-  width: 500px;
-  height: 500px;
+  height: 31.3em;
 }
 #front1 {
   position: relative;
   z-index: -1;
-  background-size: 500px;
+  background-size: 31.3em;
   background-image: url("../Images/down1.jpeg");
   background-repeat: no-repeat;
-  width: 500px;
-  height: 500px;
+  height: 31.3em;
 }
 #back2 {
   z-index: 1;
   background-repeat: no-repeat;
   position: absolute;
-  background-size: 500px;
-  /*background-image: url("../Images/up2.jpg");*/
-  background-image: url("../Images/segment.jpg");
-  background-repeat: no-repeat;
-  width: 500px;
-  height: 500px;
+  background-size: 31.3em;
+  background-image: url("../Images/up2.jpg");
+  height: 31.3em;
 }
 #front2 {
   position: relative;
   z-index: -1;
-  background-size: 500px;
-  /*background-image: url("../Images/down1.jpeg");*/
-  background-image: url("../Images/segment.jpg");
+  background-size: 31.3em;
+  background-image: url("../Images/down1.jpeg");
   background-repeat: no-repeat;
-  width: 500px;
-  height: 500px;
+  height: 31.3em;
 }
 #back3 {
   z-index: 1;
   background-repeat: no-repeat;
-  background-size: 500px;
-  width: 500px;
-  height: 500px;
+  background-size: 31.3em;
+  height: 31.3em;
   position: absolute;
-  /*background-image: url("../Images/up3.jpg");*/
-  background-image: url("../Images/bounding_boxes.jpg");
+  background-image: url("../Images/up3.jpg");
 }
 #front3 {
   z-index: 0;
-  background-size: 500px;
+  background-size: 31.3em;
   background-repeat: no-repeat;
-  /*background-image: url("../Images/down3.png");*/
-  background-image: url("../Images/bounding_boxes.jpg");
-  width: 500px;
-  height: 500px;
+  background-image: url("../Images/down3.png");
+  height: 31.3em;
   position: relative;
 }
-
-#back4 {
-  z-index: 1;
-  background-repeat: no-repeat;
-  background-size: 500px;
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  /*background-image: url("../Images/up3.jpg");*/
-  background-image: url("../Images/polygon_normal.png");
-}
-
-#front4 {
-  z-index: 0;
-  background-size: 500px;
-  background-repeat: no-repeat;
-  /*background-image: url("../Images/down3.png");*/
-  background-image: url("../Images/polygon_normal.png");
-  width: 500px;
-  height: 500px;
-  position: relative;
-}
-
-#back5 {
-  z-index: 1;
-  background-repeat: no-repeat;
-  background-size: 500px;
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  /*background-image: url("../Images/up3.jpg");*/
-  background-image: url("https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
-}
-
-#front5 {
-  z-index: 0;
-  background-size: 500px;
-  background-repeat: no-repeat;
-  /*background-image: url("../Images/down3.png");*/
-  background-image: url("https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
-  width: 500px;
-  height: 500px;
-  position: relative;
-}
-
-#back6 {
-  z-index: 1;
-  background-repeat: no-repeat;
-  background-size: 500px;
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  /*background-image: url("../Images/up3.jpg");*/
-  background-image: url("../Images/lines.jpg");
-}
-
-#front6 {
-  z-index: 0;
-  background-size: 500px;
-  background-repeat: no-repeat;
-  /*background-image: url("../Images/down3.png");*/
-  background-image: url("../Images/lines.jpg");
-  width: 500px;
-  height: 500px;
-  position: relative;
-}
-
 .slidecontainer {
   position: relative;
-  padding-top: 200px;
+  padding-top: 9em;
 }
 .slider {
   position: absolute;
   text-align: left;
-  width: 500px;
+  width: 31.3em;
   z-index: 1;
-  text-decoration: none;
-  bottom: 0px;
+  bottom: 0em;
 }
 #slider2 {
-  position: relative;
-  right: 8px;
-  height: 500px;
+  height: 15.3em;
 }
 
 #img1 {
   display: block;
 }
 #img2,
-#img3,
-#img4,
-#img5,
-#img6 {
+#img3 {
   display: none;
 }
-
 #down_arrow {
-  width: 350px;
+  width: 25em;
   position: relative;
-  bottom: 360px;
+  bottom: 35em;
   z-index: -1;
-  left: 285px;
+  left: 18em;
 }
