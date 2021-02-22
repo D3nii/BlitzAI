@@ -15,10 +15,11 @@
 
 #page1 {
   color: white;
-  background-image: url(/static/media/try2.b037acc4.jpg);
+  background-image: url("../Images/try2.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 100vh;
+  background-position: center;
 }
 
 #rightslide {
