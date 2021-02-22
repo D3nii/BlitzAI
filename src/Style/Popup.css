@@ -2,7 +2,6 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  width: 70%;
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
   transition: 0.5%;
   background-color: #ffff;
@@ -10,11 +9,11 @@
   overflow: auto;
   overflow-x: hidden;
   color: rgb(78, 83, 119);
-  height: 600px;
+  height: 76vh;
   border-radius: 30px;
-  padding-top: 50px;
+  padding-top: 5em;
   text-align: -webkit-center;
-  display: none;
+  width: 80%;
 }
 
 #pop > button {
@@ -38,19 +37,7 @@
   scrollbar-width: none;
   /* Firefox */
 }
-#term {
-  display: grid;
-  text-align: left;
-  margin: 0 auto;
-  width: 300px !important;
-  color: rgb(78, 83, 119) !important;
-}
 #pop > p {
   width: 80%;
-  padding-bottom: 100px;
-}
-#terms_body {
-  font-size: 15px;
-  color: black;
-  max-width: 500px;
+  padding-bottom: 5em;
 }
