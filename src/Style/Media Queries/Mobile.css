@@ -2,7 +2,6 @@
   #main {
     font-size: 36px;
   }
-
   .slidecontainer {
     display: none;
   }
@@ -35,11 +34,8 @@
 
   #page3_body {
     width: 20em;
-    /* left: 38%; */
-    /* top: 40px; */
     position: absolute;
     font-size: 15px;
-    /* font-size: 13px; */
     color: rgb(78, 83, 119);
     margin: 1em -7em;
   }
@@ -61,10 +57,6 @@
   }
   #col {
     display: grid;
-    /* margin: 0 auto !important; */
-    /* width: 95%; */
-    /* padding-bottom: 6em; */
-    /* margin-left: 2em; */
   }
   #col1 {
     margin-left: unset;
@@ -115,20 +107,72 @@
 }
 
 @media only screen and (max-width: 320px) {
-  body {
-    background-color: pink;
-  }
   #services div {
     max-width: 16em;
     left: 6em;
   }
   .littleHeading {
     color: white;
-    font-size: 20px;
+    font-size: 24px;
   }
   .littleBody {
-    margin: 0 2em;
-    display: table-caption;
-    width: 13em;
+    margin: 0.8em 2.5em;
+    width: 15em;
+    font-size: 15px;
+  }
+  #page3_body {
+    width: 19em;
+    position: absolute;
+    font-size: 13px;
+    color: rgb(78, 83, 119);
+    margin: 2em -7em;
+  }
+  #testimonial {
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.8)
+      ),
+      url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiICB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+CiAgIDxwYXRoIGZpbGw9IiM3NjcyOEIiIGQ9Ik0xMCw3TDgsMTFIMTFWMTdINVYxMUw3LDdIMTBNMTgsN0wxNiwxMUgxOVYxN0gxM1YxMUwxNSw3SDE4WiIgLz4KPC9zdmc+Cg==)
+        no-repeat 50% 10%;
+    width: 17em;
+    height: 14vh;
+    margin: 1em auto;
+    display: inline-block;
+    transform: scale(1);
+    transition: 0.5s;
+    box-sizing: inherit;
+    cursor: pointer;
+    box-shadow: 0 0 45px 0 #afa5a5, inset 0 0 0 0 transparent;
+    padding-bottom: 9em;
+    padding-top: 7em;
+  }
+  #PipelineCard0,
+  #PipelineCard1,
+  #PipelineCard2,
+  #PipelineCard3,
+  #PipelineCard4,
+  #PipelineCard5 {
+    display: inline-block;
+    margin: 0.5em 0.5em;
+    height: 8.5em;
+    border-radius: 20px;
+    padding: 0.5em;
+    transition: 1.5s;
+    width: 15em;
+    background-color: white;
+    opacity: 0.1;
+  }
+  #Pipeline {
+    display: grid;
+    margin: 0 1.5em;
+  }
+  #TestimonialWriting {
+    padding: 0.5em;
+    font-style: italic;
+    font-size: 1em;
+    position: relative;
+    color: rgb(78, 83, 119);
+    bottom: 2em;
   }
 }
