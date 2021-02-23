@@ -14,7 +14,7 @@ var temporary2 = "back1";
 
 const moveSliderPointerH = (hor) => {
   let temporary = document.getElementById(temporary2);
-ss
+
   temporary.style.width = hor + "px";
 
   temporary = document.getElementById("slider2");
@@ -65,6 +65,7 @@ const fourth = () => {
   document.getElementById("img5").style.display = "none";
   document.getElementById("img6").style.display = "none";
 };
+
 const fifth = () => {
   temporary2 = "back5";
   document.getElementById("img1").style.display = "none";
