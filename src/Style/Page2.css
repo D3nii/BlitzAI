@@ -68,6 +68,7 @@ div .sliderOption {
   position: relative;
   width: 500px;
 }
+
 #back1 {
   z-index: 1;
   background-repeat: no-repeat;
@@ -77,6 +78,7 @@ div .sliderOption {
   width: 500px;
   height: 500px;
 }
+
 #front1 {
   position: relative;
   z-index: -1;
@@ -86,6 +88,7 @@ div .sliderOption {
   width: 500px;
   height: 500px;
 }
+
 #back2 {
   z-index: 1;
   background-repeat: no-repeat;
@@ -97,6 +100,7 @@ div .sliderOption {
   width: 500px;
   height: 500px;
 }
+
 #front2 {
   position: relative;
   z-index: -1;
@@ -107,6 +111,7 @@ div .sliderOption {
   width: 500px;
   height: 500px;
 }
+
 #back3 {
   z-index: 1;
   background-repeat: no-repeat;
@@ -117,6 +122,7 @@ div .sliderOption {
   /*background-image: url("../Images/up3.jpg");*/
   background-image: url("../Images/bounding_boxes.jpg");
 }
+
 #front3 {
   z-index: 0;
   background-size: 500px;

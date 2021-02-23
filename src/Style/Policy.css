@@ -16,6 +16,7 @@
   text-align: -webkit-center;
   display: none;
 }
+
 #popup > button {
   background-color: white;
   border: none;
@@ -25,6 +26,7 @@
   left: 45%;
   bottom: 15%;
 }
+
 #popup::-webkit-scrollbar {
   display: none;
 }
@@ -36,6 +38,7 @@
   scrollbar-width: none;
   /* Firefox */
 }
+
 #term {
   display: grid;
   text-align: left;
@@ -43,10 +46,12 @@
   width: 300px !important;
   color: rgb(78, 83, 119) !important;
 }
+
 #popup > p {
   width: 80%;
   padding-bottom: 100px;
 }
+
 #terms_body {
   font-size: 15px;
   color: black;
