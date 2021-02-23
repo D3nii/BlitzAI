@@ -2,35 +2,11 @@
   color: rgb(78, 83, 119);
   font-size: 50px;
 }
-/* The typing effect */
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: orange;
-  }
-}
 
 #page2 {
   padding-top: 100px;
   position: relative;
   height: 55rem;
-}
-
-#services {
-  bottom: 360px;
-  position: relative;
 }
 
 #scroll {
@@ -50,7 +26,6 @@
 
 #services div {
   height: 140px;
-  max-width: 600px;
 }
 
 #icons {
@@ -62,11 +37,9 @@
 div .sliderOption {
   margin: 10px 0;
   padding: 10px;
-  bottom: 495px;
-  top: 350px;
-  position: relative;
   background-color: rgb(78, 83, 119);
   text-align: left !important;
+  height: 140px;
 }
 
 .littleHeading:hover,
@@ -94,7 +67,6 @@ div .sliderOption {
 .images {
   position: relative;
   width: 500px;
-  margin-left: 80px;
 }
 #back1 {
   z-index: 1;
@@ -229,6 +201,7 @@ div .sliderOption {
   z-index: 1;
   text-decoration: none;
   bottom: 0px;
+  cursor: none;
 }
 
 #slider {
@@ -242,8 +215,6 @@ div .sliderOption {
 }
 
 #slider2 {
-  position: relative;
-  right: 8px;
   height: 500px;
 }
 
@@ -260,11 +231,8 @@ div .sliderOption {
 }
 
 #down_arrow {
-  width: 350px;
-  position: relative;
-  bottom: 360px;
+  width: 22em;
   z-index: -1;
-  left: 285px;
 }
 
 #moveOnHover {

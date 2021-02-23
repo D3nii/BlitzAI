@@ -6,7 +6,6 @@ import { BsBoundingBox } from "react-icons/bs";
 import { AiOutlineFall } from "react-icons/ai";
 import { IoIosContract } from "react-icons/io";
 import { VscSymbolClass } from "react-icons/vsc";
-import { BsLifePreserver } from "react-icons/bs";
 import { GiThreePointedShuriken } from "react-icons/gi";
 import { BiShapePolygon } from "react-icons/bi";
 
@@ -20,11 +19,11 @@ const moveSliderPointerH = (hor) => {
 
   temporary = document.getElementById("slider2");
 
-  if (hor >= 0 && hor < 500) temporary.style.marginLeft = hor + 7 + "px";
+  if (hor >= 0 && hor < 500) temporary.style.marginLeft = hor + "px";
 }; //Controlling the horizontal movement
 
 const moveSliderPointerHelper = (e) => {
-  moveSliderPointerH(e.clientX - 80);
+  moveSliderPointerH(e.clientX - window.screen.width / 10);
 };
 
 const first = () => {
@@ -95,9 +94,15 @@ class Page2 extends React.Component {
     return (
       <section id="page2">
         <h1 id="main2">Services We Provide</h1>
-        <div id="slider">
-          <div className="images">
-            <div className="slidecontainer">
+        <div
+          style={{
+            display: "flex",
+            margin: "0 auto",
+            justifyContent: "center",
+          }}
+        >
+          <div id="slider">
+            <div className="images">
               <div id="img1">
                 <div id="back1"></div>
                 <div id="front1"></div>
@@ -135,11 +140,9 @@ class Page2 extends React.Component {
               </div>
             </div>
           </div>
-        </div>
 
-        <div id="scrollingSection">
-          <div id="scroll">
-            <span id="services">
+          <div id="scrollingSection">
+            <div id="scroll">
               <div className="sliderOption" onClick={first}>
                 <span className="littleHeading">
                   <IoIosContract id="icons" /> Tracking
@@ -210,13 +213,13 @@ class Page2 extends React.Component {
                   For Main roads / Lanes for the self-driving car technology.
                 </span>
               </div>
-            </span>
+            </div>
+            <img
+              src={require("../Images/down_arrow.gif")}
+              alt="loading..."
+              id="down_arrow"
+            />
           </div>
-          <img
-            src={require("../Images/down_arrow.gif")}
-            alt="loading..."
-            id="down_arrow"
-          />
         </div>
       </section>
     );
