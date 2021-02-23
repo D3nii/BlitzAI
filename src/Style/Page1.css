@@ -1,13 +1,12 @@
 #main {
   font-size: 50px;
+  /* position: absolute;
+  left: 150px; */
 }
 
 #page1content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  position: relative;
+  padding-top: 17em;
 }
 
 #leftover {

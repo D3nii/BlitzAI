@@ -1,20 +1,42 @@
 #main2 {
   color: rgb(78, 83, 119);
-  font-size: 3.1em;
-  margin-bottom: 2em;
+  font-size: 50px;
+}
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
 }
 
 #page2 {
-  margin-top: 30em;
+  padding-top: 100px;
   position: relative;
-  height: 55em;
+  height: 55rem;
+}
+
+#services {
+  bottom: 360px;
+  position: relative;
 }
 
 #scroll {
-  display: inline-block;
-  width: 40%;
-  height: 30em;
+  height: 480px;
   overflow: auto;
+  max-width: 100%;
   overflow-x: hidden;
   -ms-overflow-style: none;
   /* IE and Edge */
@@ -22,30 +44,26 @@
   /* Firefox */
 }
 
-#slider {
-  display: inline-block;
-  width: 40%;
-}
-
 #scroll::-webkit-scrollbar {
   display: none;
 }
 
 #services div {
-  height: 9em;
-  max-width: 40em;
+  height: 140px;
+  max-width: 600px;
 }
 
 #icons {
-  margin-right: 0.5em;
+  margin-right: 20px;
   position: relative;
-  top: 0.1em;
+  top: 5px;
 }
 
 div .sliderOption {
-  margin: 0.5em 0;
-  padding: 1em;
-  top: 0px;
+  margin: 10px 0;
+  padding: 10px;
+  bottom: 495px;
+  top: 350px;
   position: relative;
   background-color: rgb(78, 83, 119);
   text-align: left !important;
@@ -62,85 +80,171 @@ div .sliderOption {
   font-size: 30px;
 }
 
-/* */
+.littleBody {
+  color: white;
+  top: 20px;
+  position: relative;
+  left: 55px;
+  width: 500px;
+  font-size: 14px;
+  display: table-caption;
+}
 
+/* */
+.images {
+  position: relative;
+  width: 500px;
+  margin-left: 80px;
+}
 #back1 {
   z-index: 1;
   background-repeat: no-repeat;
   position: absolute;
-  background-size: 31.3em;
+  background-size: 500px;
   background-image: url("../Images/up1.jpeg");
-  height: 31.3em;
+  width: 500px;
+  height: 500px;
 }
-
 #front1 {
   position: relative;
   z-index: -1;
-  background-size: 31.3em;
+  background-size: 500px;
   background-image: url("../Images/down1.jpeg");
   background-repeat: no-repeat;
-  height: 31.3em;
+  width: 500px;
+  height: 500px;
 }
-
 #back2 {
   z-index: 1;
   background-repeat: no-repeat;
   position: absolute;
-  background-size: 31.3em;
-  background-image: url("../Images/up2.jpg");
-  height: 31.3em;
+  background-size: 500px;
+  /*background-image: url("../Images/up2.jpg");*/
+  background-image: url("../Images/segment.jpg");
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
 }
-
 #front2 {
   position: relative;
   z-index: -1;
-  background-size: 31.3em;
-  background-image: url("../Images/down1.jpeg");
+  background-size: 500px;
+  /*background-image: url("../Images/down1.jpeg");*/
+  background-image: url("../Images/segment.jpg");
   background-repeat: no-repeat;
-  height: 31.3em;
+  width: 500px;
+  height: 500px;
 }
-
 #back3 {
   z-index: 1;
   background-repeat: no-repeat;
-  background-size: 31.3em;
-  height: 31.3em;
+  background-size: 500px;
+  width: 500px;
+  height: 500px;
   position: absolute;
-  background-image: url("../Images/up3.jpg");
+  /*background-image: url("../Images/up3.jpg");*/
+  background-image: url("../Images/bounding_boxes.jpg");
 }
-
 #front3 {
   z-index: 0;
-  background-size: 31.3em;
+  background-size: 500px;
   background-repeat: no-repeat;
-  background-image: url("../Images/down3.png");
-  height: 31.3em;
+  /*background-image: url("../Images/down3.png");*/
+  background-image: url("../Images/bounding_boxes.jpg");
+  width: 500px;
+  height: 500px;
   position: relative;
 }
 
-.slidecontainer {
+#back4 {
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  /*background-image: url("../Images/up3.jpg");*/
+  background-image: url("../Images/polygon_normal.png");
+}
+
+#front4 {
+  z-index: 0;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  /*background-image: url("../Images/down3.png");*/
+  background-image: url("../Images/polygon_normal.png");
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+
+#back5 {
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  /*background-image: url("../Images/up3.jpg");*/
+  background-image: url("https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+}
+
+#front5 {
+  z-index: 0;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  /*background-image: url("../Images/down3.png");*/
+  background-image: url("https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+
+#back6 {
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  /*background-image: url("../Images/up3.jpg");*/
+  background-image: url("../Images/lines.jpg");
+}
+
+#front6 {
+  z-index: 0;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  /*background-image: url("../Images/down3.png");*/
+  background-image: url("../Images/lines.jpg");
+  width: 500px;
+  height: 500px;
   position: relative;
 }
 
 .slider {
   position: absolute;
   text-align: left;
-  width: 31.3em;
+  width: 500px;
   z-index: 1;
-  bottom: 0em;
-  height: 100%;
+  text-decoration: none;
+  bottom: 0px;
 }
 
-.slider {
-  cursor: none;
+#slider {
+  display: inline-block;
+  width: 40%;
 }
 
-#moveOnHover {
-  position: relative;
+#scrollingSection {
+  display: inline-block;
+  width: 40%;
 }
 
 #slider2 {
-  height: 100%;
+  position: relative;
+  right: 8px;
+  height: 500px;
 }
 
 #img1 {
@@ -148,14 +252,27 @@ div .sliderOption {
 }
 
 #img2,
-#img3 {
+#img3,
+#img4,
+#img5,
+#img6 {
   display: none;
 }
 
 #down_arrow {
-  width: 25em;
+  width: 350px;
   position: relative;
-  bottom: 35em;
+  bottom: 360px;
   z-index: -1;
-  left: 18em;
+  left: 285px;
+}
+
+#moveOnHover {
+  position: relative;
+  height: 120%;
+  bottom: 10%;
+  margin: 0px;
+  border: 0px;
+  background-color: lightgray;
+  width: 3px;
 }
