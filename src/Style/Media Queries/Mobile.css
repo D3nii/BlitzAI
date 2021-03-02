@@ -46,6 +46,7 @@
   #testimonial {
     margin: 1em;
     width: 20em;
+    transform: none;
   }
   #PipelineBody {
     width: 15em;
@@ -167,14 +168,15 @@
   }
 
   #page3_body {
-    width: 20em;
+    width: 19em;
     position: absolute;
     font-size: 15px;
     color: rgb(78, 83, 119);
-    margin: 1em -7.5em;
+    margin: 1em -7em;
   }
   #testimonial {
     margin: 1em;
+    transform: none;
   }
   #down_arrow {
     display: none;
@@ -268,6 +270,7 @@
   #testimonial {
     width: 17em;
     height: 10vh;
+    transform: none;
   }
   #TestimonialWriting {
     /* padding: 0em; */
