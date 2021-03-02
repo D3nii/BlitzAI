@@ -16,12 +16,12 @@
     position: absolute;
   }
 
-  #page2 {
-    margin-top: 25vw;
-  }
-
   #page1 {
     margin-top: 14.5%;
+  }
+
+  #page2 {
+    height: 52rem;
   }
 
   #main {
@@ -38,18 +38,10 @@
     font-size: 1.3vw;
   }
 
-  #main2 {
-    margin-bottom: -10vw;
-  }
-
   #services div {
     max-width: 37vw;
     height: 13vw;
     left: 61vw;
-  }
-
-  #down_arrow {
-    left: 26vw;
   }
 
   .images {
@@ -58,6 +50,14 @@
 
   .slider {
     width: 450px;
+  }
+
+  #slider {
+    display: none;
+  }
+
+  #scrollingSection {
+    width: 80%;
   }
 
   #slider2 {
@@ -78,11 +78,6 @@
     height: 48vw;
     bottom: 31vw;
     right: 5vw;
-  }
-
-  .littleBody {
-    width: 30vw;
-    top: 10px;
   }
 
   #page3 {
@@ -141,7 +136,7 @@
 
   #page3_cards {
     display: flex;
-    margin: 10px 140px;
+    margin: 10px 80px;
     border: 3px solid rgb(78, 83, 119);
     border-radius: 5px;
     position: relative;
@@ -153,15 +148,13 @@
   }
 
   #testimonial {
-    padding-top: 10vw;
+    height: 10vh;
   }
 
   #testimonialName {
     font-style: italic;
     color: rgb(78, 83, 119);
-    bottom: 3vw;
     font-size: 1.75vw;
-    position: relative;
   }
 
   #PipelineCard0,
@@ -187,15 +180,8 @@
   }
 
   .page3_heading {
-    margin: auto 40px;
+    margin: auto 1em;
     font-size: 2.25vw;
-  }
-
-  #page3_body {
-    position: absolute;
-    margin: auto 0px;
-    width: 45%;
-    left: 34vw;
   }
 
   #Pipeline {
@@ -260,18 +246,10 @@
     font-size: 1.3vw;
   }
 
-  #main2 {
-    margin-bottom: -10vw;
-  }
-
   #services div {
     max-width: 37vw;
     height: 13vw;
     left: 61vw;
-  }
-
-  #down_arrow {
-    left: 26vw;
   }
 
   .images {
@@ -475,20 +453,10 @@
     font-size: 1.3vw;
   }
 
-  #main2 {
-    margin-bottom: -10vw;
-  }
-
   #services div {
     max-width: 37vw;
     height: 13vw;
     left: 61vw;
-  }
-
-  #down_arrow {
-    left: 26vw;
-    top: -50vh;
-    z-index: -1;
   }
 
   .images {
