@@ -102,10 +102,10 @@ class Page2 extends React.Component {
                   <IoIosContract id="icons" /> Tracking
                 </span>{" "}
                 <br />
-                <span className="littleBody">
+                <div className="littleBody">
                   For the problems as Surveillance, Monitoring and Enforcement,
                   detecting and tracking objects in videos.
-                </span>
+                </div>
               </div>
 
               <div className="sliderOption" onClick={() => toggleVisibility(2)}>
@@ -114,9 +114,9 @@ class Page2 extends React.Component {
                   Classification
                 </span>{" "}
                 <br />
-                <span className="littleBody">
+                <div className="littleBody">
                   For classification of images to assign them different classes.
-                </span>
+                </div>
               </div>
 
               <div className="sliderOption" onClick={() => toggleVisibility(3)}>
@@ -127,11 +127,11 @@ class Page2 extends React.Component {
                   </span>
                 </a>
                 <br />
-                <span className="littleBody">
+                <div className="littleBody">
                   Bounding Boxes are quick and cheap to make, especially with
                   experience. For object detection, localization using
                   2-dimensional or 3-dimensional bounding boxes.
-                </span>
+                </div>
               </div>
 
               <div className="sliderOption" onClick={() => toggleVisibility(4)}>
@@ -140,9 +140,9 @@ class Page2 extends React.Component {
                   Polygons
                 </span>{" "}
                 <br />
-                <span className="littleBody">
+                <div className="littleBody">
                   For applications like semantic and instance segmentation.{" "}
-                </span>
+                </div>
               </div>
 
               <div
@@ -154,10 +154,10 @@ class Page2 extends React.Component {
                   Points
                 </span>{" "}
                 <br />
-                <span className="littleBody">
+                <div className="littleBody">
                   For key point estimation in problems in Pose Estimation or
                   Facial key points Estimation.{" "}
-                </span>
+                </div>
               </div>
 
               <div
@@ -169,9 +169,9 @@ class Page2 extends React.Component {
                   Lines
                 </span>{" "}
                 <br />
-                <span className="littleBody">
+                <div className="littleBody">
                   For Main roads / Lanes for the self-driving car technology.
-                </span>
+                </div>
               </div>
             </div>
             <img

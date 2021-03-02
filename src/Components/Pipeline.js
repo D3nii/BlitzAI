@@ -80,9 +80,8 @@ class Pipeline extends React.Component {
             <div id="PipelineHeading">Lead Review</div>
 
             <div id="PipelineBody">
-              Team Lead manually reviews 20% of teh whole data and if quality of
-              data is below what is required by the client, whole project would
-              be repeated.
+              Team Lead reviews 20% of whole data & if the quality is upto the
+              mark, whole project would be repeated.
             </div>
           </div>
 
