@@ -22,7 +22,6 @@
     position: relative;
   }
   .littleBody {
-    margin: -1em 0em;
     width: 19em;
     text-align: left;
   }
@@ -153,7 +152,6 @@
     position: relative;
   }
   .littleBody {
-    margin: -1em 0em;
     width: 14em;
     text-align: left;
   }
@@ -275,7 +273,7 @@
   #TestimonialWriting {
     /* padding: 0em; */
     font-style: italic;
-    font-size: 1em;
+    font-size: 0.9em;
     position: relative;
     color: rgb(78, 83, 119);
     bottom: 2em;
@@ -301,6 +299,6 @@
   }
   .littleBody {
     width: 15em;
-    margin: -1em -1em;
+    margin: 1em 3em;
   }
 }
