@@ -5,6 +5,12 @@
   #page2 {
     height: 175vh !important;
   }
+  .page3_heading {
+    width: unset;
+    margin: 1em auto;
+    text-align: left;
+    display: inline-block;
+  }
   #slider {
     display: none;
   }
@@ -36,11 +42,10 @@
   }
 
   #page3_body {
-    width: 20em;
     position: absolute;
-    font-size: 15px;
+    font-size: 14px;
     color: rgb(78, 83, 119);
-    margin: 1em -7.5em;
+    margin: 4em;
   }
   #testimonial {
     margin: 1em;
@@ -69,6 +74,7 @@
   }
   .page3_heading {
     margin: 1em auto;
+    padding-left: 0em;
   }
   #Testimonial > h1 {
     color: rgb(78, 83, 119);
@@ -135,6 +141,12 @@
   #page2 {
     height: 182vh !important;
   }
+  #page3_body {
+    position: absolute;
+    font-size: 14px;
+    color: rgb(78, 83, 119);
+    margin: 4em 3.5em;
+  }
   #slider {
     display: none;
   }
@@ -165,13 +177,6 @@
     width: 80em;
   }
 
-  #page3_body {
-    width: 19em;
-    position: absolute;
-    font-size: 15px;
-    color: rgb(78, 83, 119);
-    margin: 1em -7em;
-  }
   #testimonial {
     margin: 1em;
     transform: none;
@@ -255,16 +260,17 @@
     max-width: 16em;
     left: 6em;
   }
-  #page2 {
-    height: 210vh !important;
-  }
   #page3_body {
     width: 20em;
     position: absolute;
     font-size: 12px;
     color: rgb(78, 83, 119);
-    margin-top: 2em;
+    margin: 5em 1em;
   }
+  #page2 {
+    height: 210vh !important;
+  }
+
   #testimonial {
     width: 17em;
     height: 10vh;
