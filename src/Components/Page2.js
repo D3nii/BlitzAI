@@ -9,7 +9,6 @@ import { VscSymbolClass } from "react-icons/vsc";
 import { GiThreePointedShuriken } from "react-icons/gi";
 import { BiShapePolygon } from "react-icons/bi";
 
-let temporary = 0;
 var temporary2 = "back1";
 
 const moveSliderPointerH = (hor) => {
@@ -26,64 +25,18 @@ const moveSliderPointerHelper = (e) => {
   moveSliderPointerH(e.clientX - window.screen.width / 10);
 };
 
-const first = () => {
-  temporary2 = "back1";
-  document.getElementById("img1").style.display = "block";
-  document.getElementById("img2").style.display = "none";
-  document.getElementById("img3").style.display = "none";
-  document.getElementById("img4").style.display = "none";
-  document.getElementById("img5").style.display = "none";
-  document.getElementById("img6").style.display = "none";
-};
+var toggleVisibility = (ID) => {
+  temporary2 = `back${ID}`;
+  for (let i = 1; i <= 6; i++) {
+    if (i == ID) {
+      document.getElementById(`img${i}`).style.display = "block";
+      document.getElementById(`back${i}`).style.width = "250px";
+    } else {
+      document.getElementById(`img${i}`).style.display = "none";
+    }
+  }
 
-const second = () => {
-  temporary2 = "back2";
-  document.getElementById("img1").style.display = "none";
-  document.getElementById("img2").style.display = "block";
-  document.getElementById("img3").style.display = "none";
-  document.getElementById("img4").style.display = "none";
-  document.getElementById("img5").style.display = "none";
-  document.getElementById("img6").style.display = "none";
-};
-
-const third = () => {
-  temporary2 = "back3";
-  document.getElementById("img1").style.display = "none";
-  document.getElementById("img2").style.display = "none";
-  document.getElementById("img3").style.display = "block";
-  document.getElementById("img4").style.display = "none";
-  document.getElementById("img5").style.display = "none";
-  document.getElementById("img6").style.display = "none";
-};
-
-const fourth = () => {
-  temporary2 = "back4";
-  document.getElementById("img1").style.display = "none";
-  document.getElementById("img2").style.display = "none";
-  document.getElementById("img3").style.display = "none";
-  document.getElementById("img4").style.display = "block";
-  document.getElementById("img5").style.display = "none";
-  document.getElementById("img6").style.display = "none";
-};
-
-const fifth = () => {
-  temporary2 = "back5";
-  document.getElementById("img1").style.display = "none";
-  document.getElementById("img2").style.display = "none";
-  document.getElementById("img3").style.display = "none";
-  document.getElementById("img4").style.display = "none";
-  document.getElementById("img5").style.display = "block";
-  document.getElementById("img6").style.display = "none";
-};
-
-const sixth = () => {
-  temporary2 = "back6";
-  document.getElementById("img1").style.display = "none";
-  document.getElementById("img2").style.display = "none";
-  document.getElementById("img3").style.display = "none";
-  document.getElementById("img4").style.display = "none";
-  document.getElementById("img5").style.display = "none";
-  document.getElementById("img6").style.display = "block";
+  document.getElementById("slider2").style.marginLeft = "250px";
 };
 
 class Page2 extends React.Component {
@@ -144,7 +97,7 @@ class Page2 extends React.Component {
 
           <div id="scrollingSection">
             <div id="scroll">
-              <div className="sliderOption" onClick={first}>
+              <div className="sliderOption" onClick={() => toggleVisibility(1)}>
                 <span className="littleHeading">
                   <IoIosContract id="icons" /> Tracking
                 </span>{" "}
@@ -155,7 +108,7 @@ class Page2 extends React.Component {
                 </span>
               </div>
 
-              <div className="sliderOption" onClick={second}>
+              <div className="sliderOption" onClick={() => toggleVisibility(2)}>
                 <span className="littleHeading">
                   <VscSymbolClass id="icons" />
                   Classification
@@ -166,7 +119,7 @@ class Page2 extends React.Component {
                 </span>
               </div>
 
-              <div className="sliderOption" onClick={third}>
+              <div className="sliderOption" onClick={() => toggleVisibility(3)}>
                 <a className="spe">
                   <span className="littleHeading">
                     <BsBoundingBox id="icons" />
@@ -181,7 +134,7 @@ class Page2 extends React.Component {
                 </span>
               </div>
 
-              <div className="sliderOption" onClick={fourth}>
+              <div className="sliderOption" onClick={() => toggleVisibility(4)}>
                 <span className="littleHeading">
                   <BiShapePolygon id="icons" />
                   Polygons
@@ -192,7 +145,10 @@ class Page2 extends React.Component {
                 </span>
               </div>
 
-              <div className="sliderOption" onClick={fifth}>
+              <div
+                className="sliderOption"
+                onClick={() => () => toggleVisibility(5)}
+              >
                 <span className="littleHeading">
                   <GiThreePointedShuriken id="icons" />
                   Points
@@ -204,7 +160,10 @@ class Page2 extends React.Component {
                 </span>
               </div>
 
-              <div className="sliderOption" onClick={sixth}>
+              <div
+                className="sliderOption"
+                onClick={() => () => toggleVisibility(2)}
+              >
                 <span className="littleHeading">
                   <AiOutlineFall id="icons" />
                   Lines
